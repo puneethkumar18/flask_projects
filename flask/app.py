@@ -6,8 +6,8 @@ def index():
     return render_template("index.html")
 
 @app.route("/")
-def json():
-    return jsonify()
+def  send():
+    return jsonify("puneeth")
 
 
 
